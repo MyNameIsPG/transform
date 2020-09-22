@@ -7,7 +7,7 @@ npm install -g yo generator-code
 yo code
 ```
 ### 3、功能开发
-<br>
+
 ### 4、发布
 * 1、先注册一个微软的账号
 * 2、创建访问令牌 [token](https://dev.azure.com/493871850/_usersSettings/tokens)
@@ -24,3 +24,5 @@ vsce create-publisher [publisher-name]
 ```
 vsce login [publisher-name]
 ```
+
+boapvbtdvltndoh3u6u6kubdr7xxgj3a67fcnpjcgiefuocjwo3q
