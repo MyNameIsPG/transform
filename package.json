@@ -2,7 +2,7 @@
 	"name": "pg-transform",
 	"displayName": "pg-transform",
 	"description": "借助百度翻译api实现中英文互转小插件，写代码终于不用在切换到翻译去了",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"publisher": "pengg",
 	"engines": {
 		"vscode": "^1.49.0"
