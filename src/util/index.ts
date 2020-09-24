@@ -16,17 +16,15 @@ export let firstCapitalizeTurnSmall = (str: string) => {
 
 /** 英文转驼峰 */
 export let smallTurnHump = (str: string) => {
-  if (isChn(str)) {
-    let reg = new RegExp("( )" + "(.)", "g")
-    // 空格后面的第一个字符转成大写
-    str = str.replace(reg, function (a, b, c) {
-      return b + c.toUpperCase();
-    })
-    // 去除其它的特殊字符
-    let res = /[^\u4e00-\u9fa5a-zA-Z0-9]/g
-    str = str.replace(res, "")
-    // 第一个字符转小写
-    str = firstCapitalizeTurnSmall(str)
-  }
+  let reg = new RegExp("( )" + "(.)", "g")
+  // 空格后面的第一个字符转成大写
+  str = str.replace(reg, function (a, b, c) {
+    return b + c.toUpperCase();
+  })
+  // 去除其它的特殊字符
+  let res = /[^\u4e00-\u9fa5a-zA-Z0-9]/g
+  str = str.replace(res, "")
+  // 第一个字符转小写
+  str = firstCapitalizeTurnSmall(str)
   return str
 }

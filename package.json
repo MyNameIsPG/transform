@@ -1,6 +1,6 @@
 {
-	"name": "pg-transform",
-	"displayName": "pengg",
+	"name": "pengg",
+	"displayName": "pg-transform",
 	"description": "借助百度翻译api实现中英文互转小插件，写代码终于不用在切换到翻译去了",
 	"version": "2.0.2",
 	"publisher": "pengg",
