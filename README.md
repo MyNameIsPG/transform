@@ -43,6 +43,7 @@ vsce publish
 ```
 
 o76cdneqcwhwonquklk2t5yasjpithi7tq7n2eqo5x2uasbabodq
+gvwhfgukop23zz3so3a4s6zaxgdijxp4ffkfn5krktndds5xznhq
 
 
 ### 工具类
